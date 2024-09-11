@@ -1,0 +1,17 @@
+{
+  "provides" : "glfw",
+  "targets" : {
+    "linux-x64" : {
+      "linked-libraries" : ["glfw"]
+    },
+    "linux-x86" : {
+      "linked-libraries" : ["glfw"]
+    },
+    "windows-x64" : {
+      "linked-libraries" : ["glfw"]
+    },
+    "macos-x64" : {
+      "linked-libraries" : ["glfw"]
+    }
+  }
+}
