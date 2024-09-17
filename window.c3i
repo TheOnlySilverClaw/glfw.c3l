@@ -42,7 +42,7 @@ def CharacterModifiersCallback = fn void(Window window, CodePoint codepoint, Mod
 def DropCallback = fn void(Window window, CInt pathCount, ZString* paths);
 
 
-fn Window create(CInt width, CInt height, ZString title,
+fn Window createWindow(CInt width, CInt height, ZString title,
     monitor::Monitor monitor = null, Window share = null) @extern("glfwCreateWindow");
 
 fn void Window.destroy(Window window) @extern("glfwDestroyWindow");
