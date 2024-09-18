@@ -2,7 +2,7 @@ module glfw;
 
 import glfw::error;
 
-distinct UserPointer = void*;
+def UserPointer = void*;
 
 def CBool = CInt;
 
