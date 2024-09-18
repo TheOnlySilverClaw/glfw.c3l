@@ -2,16 +2,16 @@
   "provides" : "glfw",
   "targets" : {
     "linux-x64" : {
-      "linked-libraries" : ["glfw"]
+      "linked-libraries" : ["glfw3"]
     },
     "linux-x86" : {
-      "linked-libraries" : ["glfw"]
+      "linked-libraries" : ["glfw3"]
     },
     "windows-x64" : {
-      "linked-libraries" : ["glfw"]
+      "linked-libraries" : ["glfw3"]
     },
     "macos-x64" : {
-      "linked-libraries" : ["glfw"]
+      "linked-libraries" : ["glfw3"]
     }
   }
 }
