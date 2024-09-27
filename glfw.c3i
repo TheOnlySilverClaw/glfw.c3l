@@ -31,7 +31,7 @@ fn void getVersion(CInt* major, CInt* minor, CInt* revision) @extern("glfwGetVer
 
 fn ZString getVersionString() @extern("glfwGetVersionString");
 
-fn Platform getPlatForm() @extern("glfwGetPlatform");
+fn Platform getPlatform() @extern("glfwGetPlatform");
 
 fn CBool platformSupported(Platform platform) @extern("glfwPlatformSupported");
 
