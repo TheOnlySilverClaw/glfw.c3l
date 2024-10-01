@@ -4,11 +4,11 @@ import glfw::window;
 
 distinct ProcAddress = void*;
 
-def VKInstance = void*;
-def VkPhysicalDevice = void*;
-def VkResult = void*;
-def VkAllocationCallbacks = void*;
-def VkSurfaceKHR = void*;
+distinct VKInstance = void*;
+distinct VkPhysicalDevice = void*;
+distinct VkResult = void*;
+distinct VkAllocationCallbacks = void*;
+distinct VkSurfaceKHR = void*;
 
 def VkGetInstanceProcAddr = fn void(VKInstance instance, ZString name);
 
