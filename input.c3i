@@ -16,6 +16,7 @@ enum Action : CInt {
     PRESS,
     REPEAT
 }
+
 bitstruct HatDirection : CInt {
     bool up;
     bool right;
