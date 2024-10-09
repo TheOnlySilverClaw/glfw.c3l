@@ -24,7 +24,7 @@ fn void! main(String[] args) {
 	Monitor monitor = monitor::getPrimaryMonitor();
 	VideoMode* mode = monitor.getVideoMode();
 
-	Window window = glfw::window::create(mode.width / 2, mode.height / 2, "GLFW Demo");
+	Window window = glfw::window::createWindow(mode.width / 2, mode.height / 2, "GLFW Demo");
 	defer window.destroy();
 
 	setupKeyCallback(window);
