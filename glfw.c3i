@@ -4,13 +4,8 @@ import glfw::error;
 
 def UserPointer = void*;
 
-def CBool = CInt;
-
 const VERSION_MAJOR = 3;
 const VERSION_MINOR = 4;
-
-const CBool FALSE = 0;
-const CBool TRUE = 1;
 
 const DONT_CARE = -1;
 

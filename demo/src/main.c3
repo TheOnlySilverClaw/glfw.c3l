@@ -29,6 +29,10 @@ fn void! main(String[] args) {
 
 	setupKeyCallback(window);
 
+	window.setCursorEnterCallback(fn void(Window window, CBool entered) {
+		io::printfn("entered: %s", entered);
+	});
+
 	while(!window.shouldClose()) {
 		glfw::pollEvents();
 	}
@@ -68,7 +72,7 @@ fn void setupKeyCallback(Window window) {
 			}
 			case key::Q: {
 				io::printn("closing window");
-				window.setShouldClose(glfw::TRUE);
+				window.setShouldClose(TRUE);
 			}
 			}
 		}
